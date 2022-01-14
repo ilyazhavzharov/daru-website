@@ -1,0 +1,404 @@
+*
+    box-sizing: border-box
+
+body
+    font-family: 'Open Sans', sans-serif
+    font-size: 18px
+
+.header 
+    background-color: #11161E
+    min-height: 100vh
+    position: relative
+
+.container
+    max-width: 1140px
+    margin: 0 auto
+
+.header__top
+    padding-top: 80px
+    justify-content: space-between
+    display: flex
+    align-items: center
+
+.menu__list 
+    list-style: none
+    display: flex
+
+.menu__link 
+    color: #76869F
+    opacity: 80%
+    text-decoration: none
+    margin-right: 75px
+    transition: .5s
+    &-last
+        margin-right: 0
+
+.menu__link:hover 
+    color: #5CA35B
+    opacity: 100%
+
+.header__center
+    padding-top: 100px
+    display: flex
+
+.header__title
+    font-weight: bold
+    font-size: 62px
+    line-height: 101.3%
+    color: #FFFFFF
+    width: 640px
+
+.header__descr
+    margin-top: 38px
+    font-weight: normal
+    font-size: 26px
+    line-height: 129.8%
+    color: #6A7C95
+    width: 440px
+
+.header__btn
+    margin-top: 67px
+    width: 262px
+    height: 49px
+    font-size: 24px
+    color: #fff
+    border-radius: 10px
+    background-color: #5CA35B
+    cursor: pointer
+    transition: .5s
+
+.header__btn:hover
+    opacity: 70%
+
+.header__bg-elips
+    position: absolute
+    z-index: 0
+    margin-top: 60px
+    margin-left: 45px
+
+.header-img
+    position: absolute
+    z-index: 1
+    margin-top: -35px
+
+.header__bottom
+    margin-top: 190px
+    display: flex
+    align-items: center
+    padding-bottom: 164px
+
+.header__social
+    margin-right: 12px
+
+.social__text-first
+    margin-right: 25px
+
+.social__text
+    text-decoration: none
+    color: #76869F
+    opacity: 80%
+    transition: .5s
+
+.social__text:hover
+    opacity: 100%
+
+.benefits 
+    background-color: #181F29
+    min-height: 851px
+    padding-top: 162px
+    padding-bottom: 162px
+
+.benefits__title 
+    font-weight: bold
+    font-size: 42px
+    color: #FFFFFF
+
+.benefits__descr
+    margin-top: 20px
+    font-weight: normal
+    font-size: 20px
+    line-height: 142.8%
+    color: #6A7C95
+    width: 840px
+
+.benefits__inner 
+    margin-top: 65px
+    display: flex
+    justify-content: space-between
+
+.benefits__item
+    padding-top: 37px
+    width: 317px
+    height: 340px
+    background-color: #273140
+    border-radius: 15px
+    text-align: center
+    padding-bottom: 37px
+
+.benefits__item-title
+    margin-top: 20px
+    font-weight: bold
+    font-size: 28px
+    color: #FFFFFF
+
+.benefits__item-descr
+    padding-top: 15px
+    color: #717E92
+    margin: 0 auto
+    width: 235px
+    line-height: 142.8%
+
+.more
+    background-color: #11161E
+    min-height: 544px
+    padding-top: 145px
+    padding-bottom: 160px
+
+.more__title
+    font-weight: bold
+    font-size: 42px
+    line-height: 50px
+    color: #FFFFFF
+
+.more__descr
+    margin-top: 22px
+    font-weight: normal
+    font-size: 20px
+    line-height: 142.8%
+    color: #6A7C95
+    width: 640px
+
+.more__images-inner
+    margin-top: 65px
+
+.more__img
+    margin-right: 28px
+    &-last
+        margin-right: 0
+
+.convenience
+    min-height: 510px
+    background-color: #181F29
+    padding-top: 140px
+    position: relative
+
+.convenience__title
+    font-weight: bold
+    font-size: 42px
+    color: #FFFFFF
+
+.convenience__descr
+    margin-top: 22px
+    font-weight: normal
+    font-size: 20px
+    line-height: 142.8%
+    color: #6A7C95
+    width: 620px
+
+.convenience__button
+    margin-top: 50px
+    width: 262px
+    height: 50px
+    background-color: #212A38
+    color: #6A7C95
+    font-size: 20px
+    border-radius: 10px    
+    cursor: pointer
+    transition: .5s
+    border: none
+
+.convenience__button:hover
+    background-color: #5CA35B
+    color: #fff
+
+.convenience_bg-1
+    position: absolute
+    margin-top: -27px
+    margin-left: 370px
+
+.convenience_bg-2
+    position: absolute
+    margin-top: -186px
+    margin-left: 572px
+
+.rates
+    min-height: 890px
+    padding-top: 110px
+    background-color: #11161E
+
+.rates__title
+    font-weight: bold
+    font-size: 42px
+    color: #FFFFFF
+
+.rates__descr
+    margin-top: 22px
+    font-weight: normal
+    font-size: 20px
+    line-height: 142.8%
+    color: #6A7C95
+    width: 535px
+
+.rates__inner
+    margin-top: 48px
+    display: flex
+    justify-content: space-between
+
+.rates__item
+    height: 435px
+    width: 315px
+    background-color: #273140
+    padding-top: 50px
+    border-radius: 15px
+
+.updates
+    min-height: 465px
+    padding-top: 145px
+    background-color: #181F29
+
+.updates__title
+    font-weight: bold
+    font-size: 42px
+    line-height: 50px
+    color: #FFFFFF
+    
+.updates__descr
+    margin-top: 22px
+    font-weight: normal
+    font-size: 20px
+    line-height: 142.8%
+    color: #6A7C95
+    width: 575px
+
+.updates__images-inner
+    margin-top: 45px
+
+.updates__img
+    margin-right: 38px
+    transition: .5s
+
+.updates__img:hover
+    opacity: 70%
+
+.updates__img-last
+    margin-right: 0
+
+footer
+    min-height: 150px
+    padding-top: 50px
+    background-color: #11161E
+
+.footer__inner
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.footer__text-left
+    font-size: 12px
+    color: #2D3746
+    text-decoration: none
+    transition: .5s
+
+.footer__text-left:hover
+    color: #fff
+
+.logo__inner
+    display: flex
+    font-size: 12px
+    align-items: center
+
+.footer__logo
+    margin-right: 20px
+
+.logo__text
+    text-decoration: none
+    color: #2D3746
+    line-height: 128.8%
+    transition: .5s
+
+.logo__text:hover
+    color: #fff
+
+.footer__text-right
+    font-size: 12px
+    color: #2D3746
+    text-decoration: none
+    text-align: right
+    line-height: 128.8%
+    transition: .5s
+
+.footer__text-right:hover
+    color: #fff
+
+.rates__item-title
+    font-weight: bold
+    font-size: 28px
+    text-align: center
+    color: #FFFFFF
+
+.rates__item-podtitle
+    font-weight: 500
+    font-size: 12px
+    text-align: center
+    line-height: 142.8%
+    color: #717E92
+
+.rates__list
+    margin-top: 22px
+    padding-left: 50px
+    font-weight: 500
+    font-size: 16px
+    line-height: 160.3%
+    color: #717E92
+    margin-bottom: 40px
+
+.rates__more-text
+    color: #3B485A
+
+.rates__button-1
+    width: 250px
+    height: 40px
+    background-color: #6A7395
+    border-radius: 5px
+    color: #fff
+    font-weight: 600
+    border: none
+    display: block
+    margin: 0 auto
+    cursor: pointer
+    transition: .5s
+
+.rates__button-1:hover
+    opacity: 60%
+
+.rates__button-2
+    width: 250px
+    height: 40px
+    background-color: #6A9590
+    border-radius: 5px
+    color: #fff
+    font-weight: 600
+    border: none
+    display: block
+    margin: 0 auto
+    cursor: pointer
+    transition: .5s
+
+.rates__button-2:hover
+    opacity: 60%
+
+.rates__button-3
+    width: 250px
+    height: 40px
+    background-color: #95936A
+    border-radius: 5px
+    color: #fff
+    font-weight: 600
+    border: none
+    display: block
+    margin: 0 auto
+    cursor: pointer
+    transition: .5s
+
+.rates__button-3:hover
+    opacity: 60%
